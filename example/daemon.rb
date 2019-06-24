@@ -2,7 +2,7 @@
 require 'rest-firebase'
 
 es = RestFirebase.new(:auth => false).
-       event_source('https://SampleChat.firebaseIO-demo.com/')
+       event_source('https://ff-test-1559793546909.firebaseio.com/')
 
 es.onerror do |error|
   puts "ERROR: #{error}"
